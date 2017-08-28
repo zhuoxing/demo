@@ -1,0 +1,88 @@
+.con_box,.form_box{
+  width:1000px;
+  margin: 0 auto;
+}
+
+.con_box{
+  height: 560px;
+}
+.step{
+  width: 1000px;
+  height: 80px;
+  border-bottom: 2px solid #ccc;
+}
+
+
+.step .allsteps{
+  padding-top: 40px;
+  width:800px;
+  margin:0 auto;
+}
+.allsteps .everystep{
+  float:left;
+  height:40px;
+  line-height: 40px;
+  font-size: 14px;
+  width: 200px;
+  text-align:center;
+  color: #999999;
+}
+.everystep span{
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #c5c5c5;
+}
+.border_btm span{
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  background: #e83917;
+  text-align: center;
+  line-height: 27px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.border_btm{
+  color: #e83917;
+  border-bottom:2px solid #e83917; 
+}
+.form_box #myform{
+  width: 380px;
+  padding: 0px 10px;
+  margin:0 auto;
+  padding-top: 50px;
+  font-size: 14px; 
+}
+#myform input{
+  width: 280px;
+  height:40px;
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+#myform p{
+  height: 40px;
+  color: red;
+  text-indent: 80px;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+#myform input.sut{
+  background: #e83917;
+  border: 0px; 
+  width: 110px;
+  margin: 0 auto; 
+  color: #ffffff;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}

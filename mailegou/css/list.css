@@ -1,0 +1,588 @@
+#content{
+    width:100%;
+}
+#main{
+    width:1190px;
+    margin: 0 auto;
+}
+.position{
+    width:1190px;
+    height: 49px;
+    margin: 0 auto;
+}
+.position .psnCon{
+    line-height: 49px;
+    color:#999999;
+    font-size:12px;
+    font-family: "宋体";
+}
+
+.position .psnCon a{
+    font-size:12px;
+    color:#666666;
+    line-height: 49px;
+}
+.onePro{
+    width:1190px;
+    margin:auto;
+    padding-bottom: 20px;
+}
+.previewImg{
+    width:350px;
+    height:350px;
+    border:solid 1px #cccccc;
+    position: relative;
+}
+.previewImg img{
+    width:350px;
+    height:350px;
+}
+.smallImg{
+    width:350px;
+    padding:6px 0px 20px 0px;
+    
+}
+
+#bigPic{
+    z-index: 100;
+    width:400px;
+    height:400px;
+    position: absolute;
+    left:493px;
+    top: 298px;
+    overflow: hidden;
+    display: none;
+    border: 1px solid #aaa;
+}
+
+#bigPic img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left:0px;
+    top:0px;
+        
+}
+.mark{
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+    cursor: move;
+    border: 1px solid #aaa;
+    background: #FEDE4F 50% top no-repeat;
+    opacity: 0.5;
+}
+
+.prev,.next{
+    display:block;
+    width:18px;
+    height:54px;
+    background:url("../img/detail/mainCon.png") no-repeat -142px -116px;
+}
+.next{
+    background-position: -167px -116px;
+}
+.allShow{
+    width:308px;
+    height:56px;
+    overflow: hidden;
+}
+.allShow .allImg{
+    width:360px;
+    margin-left:5px;
+}
+.allImg li{
+    float:left;
+    width:54px;
+    height:54px;
+    border:solid 1px #cccccc;
+    margin-right: 5px;
+}
+
+
+.allImg li img{
+    display: block;
+    width:52px;
+    height:52px;
+    border:2px solid;
+    border-color: transparent;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.allImg .img_hover{
+    border:2px solid #ff6600;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.collect{
+    height:20px;
+    line-height: 20px;
+    color:#998675;
+}
+
+.collect .like{
+    display:inline-block;
+    width:15px;
+    height:11px;
+    background:url("../img/list/scPng.png") no-repeat 0px -9px;
+}
+.service{
+    padding-top: 10px;
+}
+.service,.service a{
+    height:30px;
+    line-height: 30px;
+    color:#cc1d00;
+}
+.service i{
+    padding:9px 9px;
+    background:url("../img/list/iconKf.png") no-repeat -25px 6px;
+}
+.service a{
+    padding-left: 30px;
+}
+
+.detail{
+    width:810px;
+}
+.detail .desc_con{
+    font-size: 20px;
+    line-height: 26px;
+    height:66px;
+}
+.desc_con span{
+    display:block;
+    font-size: 14px;
+    color:#999999;
+    font-family: "microsoft yahei";
+}
+
+.pay_con{
+    width:598px;
+    height:361px;
+    
+}
+
+.pay_con .price{
+    background:#f7f7f7;
+    padding-bottom: 5px;
+}
+.price p{
+    line-height: 30px;
+    height:30px;
+    color:#666666;
+    padding-left:12px;
+
+}
+.priceNum{
+    color:#de2507;
+    font-weight: bold;
+    font-size: 18px;
+    line-height:30px;
+    padding-right:20px;
+    padding-top:5px;
+}
+.shuoming{
+    padding:2px 4px;
+    color:#ffffff;
+    background:#B3AFE1;
+    border-radius: 3px;
+}
+.login{
+    width:30px;
+    height:20px;
+    display:inline-block;
+    background:#cc1d00;
+    color:#ffffff;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pay_con .popular{
+    padding-left:12px;
+    line-height: 30px;
+    line-height: 30px;
+    color:#999999;
+}
+.popular span{
+    color:#ff6d55;
+}
+.popular e{
+    padding:0px 15px;
+    font-size: 14px;
+}
+.duawei,.buyCount,.taocan{
+    padding-left:12px;
+    height:50px;
+    line-height: 50px;
+    color:#666666;
+}
+.duawei a,.taocan a{
+    display:inline-block;
+    height:30px;
+    line-height: 30px;
+    border:solid 1px #dddddd;
+    padding:0px 5px;
+    color:#666666;
+    margin-right: 10px;
+    position: relative;
+}
+
+.duawei a:hover:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1px;
+    left: -1px;
+    border:solid 2px #ff1d02;
+}
+
+.taocan a:hover:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -1px;
+    left: -1px;
+    border:solid 2px #ff1d02;
+}
+
+.duawei .click_act,.taocan .click_act{
+    border:solid 2px #ff1d02;
+    height:28px;
+    line-height:28px;
+    padding:0px 5px;
+    margin-right: 8px;
+    background: url(../img/list/priceOn.gif) no-repeat right bottom;
+}
+.buyCount a{
+    padding:5px;
+    color:#666666;
+    border:solid 1px #dddddd;
+}
+.buyCount input{
+    width:40px;
+    height:24px;
+    border:solid 1px #dddddd;
+    text-align:center;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+
+}
+.addCar{
+    padding-left: 12px;
+    height:50px;
+    padding-top: 10px;
+}
+.addCar a{
+    display:block;
+    width:180px;
+    height:50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    background:#cc1d00;
+    color:#ffffff;
+}
+.bzBox{
+    width:175px;
+}
+.bzBox h3{
+    height:44px;
+    border-top:solid 1px #c5d8ef;
+    border-bottom:solid 1px #c5d8ef;
+    color:#4c87cd;
+    font-size: 24px;
+    width:175px;
+    text-align: center;
+    line-height: 44px;
+}
+.bzBox .safe{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.safe p{
+    line-height: 30px;
+    color:#176ecb;
+}
+.safe p i{
+    padding:10px;
+}
+
+/*-----*/
+.mainBox{
+    border-top: solid 1px #000000;
+}
+.mainBox h3{
+    padding-left: 10px;
+    line-height: 32px;
+    border:solid 1px #dfdfdf;
+    background:#f7f7f7; 
+}
+
+.combine{
+    border:solid 1px #dfdfdf;
+    border-top: 0;
+    padding-left: 10px;
+}
+.comName{
+    line-height: 20px;
+    padding-left: 4px;
+    padding-top: 10px;
+}
+.comName a{
+    padding: 0px 15px;
+    color:#000000;
+}
+
+.select{
+    padding-left: 20px;
+    color:red;
+    line-height: 20px;
+}
+.comGoods{
+    width:150px;
+    padding-top: 10px;
+}
+.comGoods img{
+    display:block;
+    margin:0 auto;
+    width:120px;
+    height:120px;
+}
+.comGoods p{
+    padding-top: 6px;
+}
+.p1{
+    height:14px;
+}
+.p2{
+    height:36px;
+    overflow:hidden;
+    line-height: 18px;
+    
+}
+.p2 a{
+   color:#000000; 
+}
+.p3{
+    color:#cc1d00;
+    font-size: 14px;
+}
+.p3 span{
+    text-decoration: line-through;
+    color:#999999;
+}
+.comGoods p.p4 {
+    color:#999999;
+    padding-top: 0;
+    line-height: 18px;
+}
+
+
+.combineCen{
+    width:760px;
+    height: 264px;
+    overflow-X:scroll;
+}
+.combineCen .hideUl{
+    width:960px;
+}
+
+.combineEry{
+    float:left;
+    width:190px;
+}
+.combineEry i{
+    width:35px;
+    height:22px;
+    float:left;
+    background: url(../img/list/mainCon.png) no-repeat 0px -143px;
+    margin: 50px 0px 0px 5px;
+}
+.combineEry img{
+    width:120px;
+    height:120px;
+}
+.comRight{
+    padding-top: 20px;
+}
+.comRight i{
+    width:35px;
+    height:22px;
+    float:left;
+    background: url(../img/list/dyto.png) no-repeat;
+    margin: 54px 0px 0px 5px;
+}
+.comRight p{
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'microsoft yahei';
+}
+.comRight a{
+    margin-top: 10px;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #cc1d00;
+    border-radius: 3px;
+    display: block;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+.comRight p span{
+    color:red;
+    font-weight: bold;
+}
+
+
+/***/
+.con_btm{
+    padding-top: 20px;
+    width:1190px;
+    margin:0 auto;
+}
+
+
+.btm_side{
+    border-top: solid 1px #000000;
+}
+
+.btm_side h3{
+    border:solid 1px #dfdfdf;
+    padding-left: 16px;
+    background: #f7f7f7;
+    line-height: 32px;
+    width: 186px;
+}
+
+.side_con{
+    border:solid 1px #dfdfdf;
+    border-top: 0px;
+}
+.side_con p{
+    line-height: 25px;
+    padding-left: 10px;
+} 
+.side_con a{
+    color:#000000;
+}
+.side_con img{
+    width: 202px;
+    height: 100px;
+}
+.btm_main h3{
+    width: 958px;
+}
+.advice_box{
+    border:solid 1px #dfdfdf;
+    border-top: 0px;
+}
+
+.adv_cen{
+    width: 576px;
+    border-right:solid 1px #dfdfdf;
+    border-left:solid 1px #dfdfdf;  
+}
+.advice_box a{
+    position: relative;
+    display: block;
+    float: left;
+}
+.border_btm{
+    border-bottom:solid 1px #dfdfdf; 
+}
+.border_rig{
+    border-right:solid 1px #dfdfdf; 
+}
+
+.advice_box span{
+    position: absolute;
+    left: 8px;
+    top:45px;
+    display: block;
+}
+.priOld{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #999;
+    text-decoration: line-through;
+    line-height: 0px;
+}
+.priNow{
+    font-family: Verdana, Geneva, sans-serif;
+    color: #cc1d00;
+    font-weight: bold;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+
+.btm_side .comGoods{
+    border: solid 1px #dfdfdf;
+    border-bottom: 0px; 
+    border-top: 0px;
+    padding: 20px 26px 10px 26px;
+}
+.btm_side .comGoods img{
+    width: 150px;
+    height: 150px;
+}
+.btm_side .comGoods p{
+    width: 166px;
+}
+.newPro{
+    border-bottom: dashed 1px #9a9a9a;
+    width: 204px;
+}
+
+
+.mainHead{
+    border:solid 1px #dfdfdf;
+    background: #f7f7f7;
+    line-height: 40px;
+    width: 968px;
+    height: 40px;
+}
+.mainHead a,.mainHead span{
+    display: inline-block;
+    padding:0px 15px 1px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    font-family: "microsoft yahei" 
+}
+.a-act{
+    margin-top: -3px;
+    border-top: solid 1px #cc1d00;
+    background: #ffffff;
+    border-right: solid 1px #dfdfdf;
+}
+
+.mainHead .toCar{
+    margin-top: -2px;
+    height: 41px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    background: #cc1d00;
+    display: block;
+    font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
+}
+
+.btm_ad{
+    width: 790px;
+    margin:20px auto; 
+}
+.btm_ad a,.btm_ad img{
+    display: block;
+}

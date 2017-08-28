@@ -1,0 +1,147 @@
+#top_wrap{
+    height:110px;
+    width:100%;
+}
+.top{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    padding-top: 20px;
+}
+.logo a{
+    display: block;
+    float: left;
+}
+.authentic{
+    float: right;
+    padding-top: 25px;
+}
+#conWrap{
+    width:1000px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.main{
+    padding-top:30px;
+    padding-left:20px;
+    float: left;
+}
+.mainSide{
+    padding-top:30px;
+    float: left;
+}
+.login{
+    width: 289px;
+    height: 310px;
+    padding: 20px 40px;
+    border: solid 1px #ccc;
+    border-top: #ea3918 2px solid;
+}
+.login .loginTl h3{
+    font: 22px "宋体";
+}
+.login .loginTl a{
+    display:block;
+    float:right;
+    color: #999999;
+    line-height: 22px;
+}
+.loginText{
+    padding-top: 20px;
+}
+.loginText .loginLi{
+    height:32px;
+}
+.loginText .Validform_checktip{
+    height:24px;
+    color: red;
+    line-height: 24px;
+}
+.loginLi .user{
+    display:block;
+    width:32px;
+    height:32px;
+    background: url("../img/login/tegPng.png") no-repeat 0px 0px;
+}
+.loginLi input{
+    font-size: 14px;
+    border: 0px;
+    width:249px;
+    height:30px;
+    border:solid 1px #dedede;
+    padding-left: 5px;
+}
+.loginText .loginLi .checkStr{
+    width:108px;
+}
+.loginLi .forPsw{
+    width:289px;
+    height:20px;
+    line-height: 20px;
+    padding-bottom: 0px;
+}
+.loginLi .forPsw a{
+    display:block;
+    float:right;
+    color:#999999;
+    line-height: 24px;
+}
+.loginLi .loginBtn{
+    width:289px;
+    height:40px;
+    border:0px;
+    background:#e83917;
+    color:#ffffff;
+    border-radius: 4px;
+    font-size: 22px;
+}
+.otherLogin{
+    height:20px;
+    padding:50px 0px;
+}
+.otherLogin span{
+    display:inline-block;
+    height:20px;
+    line-height: 20px;
+    color:#999999;
+    padding-right: 5px;
+}
+.loginWay a{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    padding-left:15px;
+    /* overflow:hidden; */
+   /*  padding:0 6px; */
+    background:url("../img/login/tegPng.png") no-repeat -30px -126px;
+}
+
+/* 注册 */
+.register{
+    z-index: 100;
+    height:435px;
+
+}
+.register span.have{
+    color:#000000;
+}
+.register .loginLi .checkmsg{
+    width:108px;
+}
+.register .loginLi input.checkbox{
+    margin-top:8px;
+    width:12px;
+    height:12px;
+}
+.accept label{  
+    line-height: 26px;
+    padding-left: 5px;
+}
+.register  .otherLogin{
+    text-align: center;
+}
+.otherLogin .vioce{
+    line-height: 20px;
+    color:#128cff;
+}

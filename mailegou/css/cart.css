@@ -1,0 +1,226 @@
+#logo_wrap{
+  width:100%;
+  border-bottom: solid 1px #d10000;
+}
+
+#logo{
+  width:1000px;
+  margin:0 auto;
+  padding-top: 20px;
+}
+.step_box{
+  padding-top: 25px;
+}
+
+.step p{
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, sans-serif; 
+  text-align: center;
+  overflow: hidden;
+  height: 30px;
+  width: 150px;
+  line-height: 30px;
+  background: url("../img/cart/car518step.png");
+}
+.step span{
+  display: block;
+  width: 150px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  font-family:"microsoft yahei";
+}
+ul.step li{
+  float: left;
+}
+.li_act p{
+  background: url("../img/cart/car518step.png") 0px 30px;
+}
+
+.li_act span{
+  color: #cf2e13;
+}
+
+/*主要内容*/
+
+#con_wrap{
+  width: 100%;
+}
+#con{
+  width: 1000px;
+  margin:0 auto;
+}
+
+.con_top p{
+  height: 70px;
+  width: 1000px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 20px;
+  color: #f53900;
+  font-family:"microsoft yahei";
+  
+}
+p.con_title i{
+  padding:0px 24px 5px 24px;
+  background:url("../img/cart/egDiv.png") no-repeat left top;
+}
+.con_cen h3{
+  height: 30px;
+  background: #c97070;
+  padding-left: 16px;
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 16px;
+  font-family:"microsoft yahei";
+} 
+.emptyCart,.cart_con{
+  border:solid 1px #c97070; 
+}
+.emptyCart a{
+  display: block;
+  width: 427px;
+  height: 180px;
+  margin:40px auto;
+}
+.cart_con .selAll{
+  line-height: 36px;
+  padding-left: 16px;
+  font-size: 14px;
+}
+table.goods{
+  border-collapse: collapse;
+  width: 960px;
+  margin:0 auto;
+  color: #444444;
+  font-size: 12px;
+}
+table.goods td,table.goods th{
+  border:solid 1px #cccccc;
+  padding:0px 5px;  
+  height: 28px;
+  line-height: 28px;
+  font-weight: normal;
+  font-family:"宋体";
+}
+.goods th{
+  background: #eeeeee;
+}
+table.goods .explain td{
+  padding:3px 5px; 
+}
+.explain p{
+  background: #e0f2f1;
+  height: 20px;
+  border-radius: 5px;
+  padding:4px 10px;  
+}
+.baoyou{
+  display: block;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 20px;
+  background: #6bcbd2;
+  border-radius: 5px;
+}
+table tbody tr{
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+}
+
+
+.calculate{
+  height: 45px;
+  margin: 20px 0px;
+  background:#f0f0f0;
+  line-height: 45px;
+  padding-left: 20px;
+}
+table .goodsBox{
+  float: left;
+  width: auto;
+  position: relative;
+  
+}
+table .goodsBox img{
+  width: 50px;
+  height: 50px;
+  border:solid 1px #cccccc; 
+}
+
+table .goodsBox .p1{
+  width:400px;
+  text-align: left;
+  padding-left: 10px;
+  line-height: 20px;
+}
+.goodsBox .p1 a{
+  color: #000000;
+}
+table .priceNow,table .priceOld{
+  display: block;
+  line-height: 16px;
+}
+
+table .priceNow{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+table .priceOld{
+  color:#999;
+  font-size: 12px;
+  font-family: arial,sans-serif;
+  text-decoration: line-through;
+}
+
+table .count{
+  padding-left: 30px;
+}
+table .count li{
+  float: left;
+  border: solid 1px #cccccc;
+  height: 24px;
+  width: 20px;
+  line-height: 24px;
+  font-size: 16px; 
+  text-align: center;
+  background: #eee;
+
+}
+table .count li.countNum{
+  background: #ffffff;
+   border-right: 0px;
+  border-left: 0px;
+  width: 30px;
+}
+
+.count li.add,.count li.reduce{
+  cursor: pointer;
+}
+.countNum input{
+  height: 20px;
+  width: 30px;
+  border: 0px;
+  height: 20px;
+  outline: none;
+  text-align: center;
+}
+
+.accountBtn{
+    display: inline-block; 
+    width: 140px;
+    height: 45px;
+    background-color: #cf2e13;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    font-family: Microsoft Yahei,"微软雅黑";
+    font-size: 17px;
+}

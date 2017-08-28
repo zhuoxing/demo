@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>用户注册</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link rel="shortcut icon" href="img/m6gou.ico"/>
+    <link rel="stylesheet" type="text/css" href="css/jquery.idcode.css">
+</head>
+<body>
+  <div id="top_wrap" class="clear">
+    <div class="top">
+      <div class="logo">
+        <a href="javascript:;">
+          <img src="img/login/logo.gif"/>
+        </a>
+      </div>
+      <div class="authentic">
+        <img src="img/login/registerAuthenticPic.png" />
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="conWrap" class="clear">
+    <div class="main">
+      <a href="javascript:;">
+        <img src="img/login/conMain.png" />
+      </a>
+    </div>
+    <div class="mainSide">
+      <div class="login register">
+          <div class="loginTl clear">
+              <h3 class="fl">新用户注册</h3>
+              <a href="login.html">
+                <span class="have">已有麦乐购账号，</span>直接登录
+              </a>
+          </div>
+          <form action="javascript:;" id="myform">
+            <ul class="loginText">
+              <li class="loginLi">
+                  <input id="phonenum" class="phoneNum" type="text" placeholder="请输入手机号码" name="tel" datatype="m" nullmsg="*请输入您的手机号码!" errormsg="必须是11位的手机号码" />
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi">
+                  <input id="password" class="psw" type="password" placeholder="请输入密码" name="userpassword" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！" />   
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi">
+                  <input class="repsw" type="password" placeholder="请再次输入密码" name="userpassword2" tip="test" class="inputxt" datatype="*" recheck="userpassword" nullmsg="请再输入一次密码！" errormsg="您两次输入的账号密码不一致！" />
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi">
+                  <input class="username checkStr txtVerification Txtidcode" type="text" placeholder="验证码" />
+                  <span class="idcode"></span>
+                  <a class="font_black" href="javascript:;" onclick="changeOne();">换一张</a>
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi">
+                  <input class="username checkmsg" type="text" placeholder="短信验证码" />
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi clear">
+                  <p class="forPsw accept">
+                      <input class="checkbox fl" id="ok" type="checkbox" checked="" nullmsg="asdfasdf" />
+                      <label for="ok">已阅读并同意</label>
+                      <a class="fr" href="javascript:;">《麦乐购注册协议及交易条款》</a>
+                  </p>
+                  <input class="loginBtn butn" id="regbtn" type="submit" value="注册" />
+              </li>
+              <li class="otherLogin">
+                  <span class="font_black">收不到短信？请使用</span>
+                  <a class="vioce" href="javascript:;">语音校验码</a>
+              </li>
+            </ul>
+          </form>
+      </div>  
+    </div>
+  </div>
+
+    <!--网页底部-->
+  <div id="footer">
+    <div class="clear">        
+    </div>
+    <div class="footBtm">
+      <p class="about">
+        <a href="#">关于麦乐购</a><span>|</span>
+        <a href="#">保税店专区</a><span>|</span>
+        <a href="#">服务条款</a><span>|</span>
+        <a href="#">商户合作</a><span>|</span>
+        <a href="#">O2O合作</a><span>|</span>
+        <a href="#">联系我们</a><span>|</span>
+        <a href="#">友情链接</a><span>|</span>
+        <a href="#">诚聘英才</a><span>|</span>
+        <a href="#">手机麦乐购</a><span>|</span>
+        <a href="#">意见建议</a><span>|</span>
+        <a href="#">媒体报道</a><span>|</span>
+      </p>
+      <div class="copyRight">
+        <p>
+          <a href="#" style="color: #000000"><img src="img/gonganbeian.png"/>京公网安备：11010102000812号</a>  | 中华保险保单号：011644014602050D000001 | 中华人民共和国出版物经营许可证编号：150023 | 广电制作经营许可证：(京)字第06356号
+        </p>
+        <p>
+          网络文化经营许可证：京网文(2016)4048-509号 | 食品经营许可证编号：JY11101070034785 | 食品卫生许可证编号：110101_JX0020 | 互联网药品信息服务证书编号：(京)-2016-0095
+        </p>
+        <p>
+          Copyright 2006 - 2016 北京麦乐购科技有限公司版权所有 | 经营许可证编号：京ICP证150027号 | 营业执照：911101010672694772 |  京ICP备14022296号 | 中国服务热线：400-666-6600
+        </p>
+        <p class="copyImg">
+          <a href="#"><img src="img/copyRight1.png"></a>
+          <a href="#"><img src="img/copyRight2.png"></a>
+          <a href="#"><img src="img/copyRight3.png"></a>
+          <a href="#"><img src="img/copyRight4.png"></a>
+          <a href="#"><img src="img/copyRight5.png"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+<!--网页底部-->
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.idcode.js"></script>
+<script type="text/javascript" src="js/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

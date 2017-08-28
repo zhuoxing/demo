@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户登录</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/login.css" />
+  <link rel="shortcut icon" href="img/m6gou.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/jquery.idcode.css">
+</head>
+<body>
+	<div id="top_wrap" class="clear">
+		<div class="top">
+			<div class="logo">
+				<a href="javascript:;">
+					<img src="img/login/logo.gif"/>
+				</a>
+			</div>
+			<div class="authentic">
+				<img src="img/login/registerAuthenticPic.png" />
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="conWrap" class="clear">
+		<div class="main">
+			<a href="javascript:;">
+				<img src="img/login/conMain.png" />
+			</a>
+		</div>
+		<div class="mainSide">
+			<div class="login">
+				<div class="loginTl clear">
+					<h3 class="fl">登录</h3>
+					<a  href="register.html">免费快速注册</a>
+				</div>
+          <form action="javascript:;" id="myform">
+            <ul class="loginText">
+              <li class="loginLi clear">
+                  <label class="user fl"></label>
+                  <input class="username" type="text" placeholder="手机号码/邮箱/用户名" datatype="s6-18" nullmsg="请输入用户名！"/>
+              </li>
+              <li class="Validform_checktip"></li>
+              <li class="loginLi clear">
+                  <label class="user fl" style="background-position: 0px -52px;"></label>
+                  <input class="initpsw" type="password" placeholder="密码" 
+                  datatype="s6-18" nullmsg="请输入密码！"/>
+              </li>
+              <li class="Validform_checktip"></li> 
+              <li class="loginLi">
+                  <input class="checkStr txtVerification Txtidcode" type="text" placeholder="验证码" />
+                  <span class="idcode"></span>
+                  <a class="font_black" href="javascript:;" onclick="changeOne();">换一张</a>
+              </li>
+              <li class="loginLi clear">
+                  <p class="forPsw"><a href="forget.html">忘记密码？</a></p>
+                  <input class="loginBtn butn" id="loginbtn" type="submit" value="登录" />
+              </li>
+              <li class="otherLogin">
+                  <span class="fl">使用其他账号登录：</span>
+                  <p class="loginWay fl">
+                    <a href="javascript:;" style="background-position:-26px -128px;"></a>
+                    <a href="javascript:;" style="background-position: -66px -128px;"></a>
+                    <a href="javascript:;" style="background-position: -106px -128px;"></a>
+                    <a href="javascript:;" style="background-position:-147px -382px;"></a>  
+                  </p>
+                    
+              </li>
+            </ul>
+          </form>
+          
+			</div> 
+		</div>
+	</div>
+
+    <!--网页底部-->
+  <div id="footer">
+    <div class="clear">        
+    </div>
+    <div class="footBtm">
+      <p class="about">
+        <a href="#">关于麦乐购</a><span>|</span>
+        <a href="#">保税店专区</a><span>|</span>
+        <a href="#">服务条款</a><span>|</span>
+        <a href="#">商户合作</a><span>|</span>
+        <a href="#">O2O合作</a><span>|</span>
+        <a href="#">联系我们</a><span>|</span>
+        <a href="#">友情链接</a><span>|</span>
+        <a href="#">诚聘英才</a><span>|</span>
+        <a href="#">手机麦乐购</a><span>|</span>
+        <a href="#">意见建议</a><span>|</span>
+        <a href="#">媒体报道</a><span>|</span>
+      </p>
+      <div class="copyRight">
+        <p>
+          <a href="#" style="color: #000000"><img src="img/gonganbeian.png"/>京公网安备：11010102000812号</a>  | 中华保险保单号：011644014602050D000001 | 中华人民共和国出版物经营许可证编号：150023 | 广电制作经营许可证：(京)字第06356号
+        </p>
+        <p>
+          网络文化经营许可证：京网文(2016)4048-509号 | 食品经营许可证编号：JY11101070034785 | 食品卫生许可证编号：110101_JX0020 | 互联网药品信息服务证书编号：(京)-2016-0095
+        </p>
+        <p>
+          Copyright 2006 - 2016 北京麦乐购科技有限公司版权所有 | 经营许可证编号：京ICP证150027号 | 营业执照：911101010672694772 |  京ICP备14022296号 | 中国服务热线：400-666-6600
+        </p>
+        <p class="copyImg">
+          <a href="#"><img src="img/copyRight1.png"></a>
+          <a href="#"><img src="img/copyRight2.png"></a>
+          <a href="#"><img src="img/copyRight3.png"></a>
+          <a href="#"><img src="img/copyRight4.png"></a>
+          <a href="#"><img src="img/copyRight5.png"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+<!--网页底部-->
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript" src="js/jquery.idcode.js"></script>
+<script type="text/javascript" src="js/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,355 @@
+#content{
+    width:100%;
+}
+.position{
+    width:1190px;
+    height: 49px;
+    margin: 0 auto;
+}
+.position .psnCon{
+    line-height: 49px;
+    color:#999999;
+    font-size:12px;
+    font-family: "宋体";
+}
+
+.position .psnCon a{
+    font-size:12px;
+    color:#666666;
+    line-height: 49px;
+}
+#main{
+    width:1190px;
+    margin:0 auto;
+}
+#main .conSide{
+    width:220px;
+}
+.conSide .sideBox{
+    width:220px;
+    border:solid 1px #dbdbdb;
+    border-top: solid 1px #000000;
+    border-bottom: solid 1px #dbdbdb;
+}
+.navLi{
+    position:relative;
+    width:220px;
+    
+}
+.navLi h3{
+    border-top:solid 1px #dbdbdb;
+    border-bottom:solid 1px #dbdbdb;
+    background:#f7f7f7;
+    width:204px;
+    padding-left: 16px;
+    height:30px;
+    line-height: 30px;
+    font-weight: normal;
+    font-size:14px;
+    font-family: "microsoft yahei";
+}
+.navLi a{
+    color:#000000;
+}
+.navLi span{
+    position:absolute;
+    top:7px;
+    right:13px;
+    display:block;
+    width:16px;
+    height:16px;
+    background:url("../img/detail/pm.jpg") no-repeat 0px -16px;
+}
+.navLi .subnav_ul{
+    display:none;
+    background:#ffffff;
+    width:204px;
+    padding: 0px 8px;
+}
+.subnav_ul .subLi{
+    width:204px;
+    border-bottom: dashed 1px #dbdbdb;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.subnav_ul .subLi h4 a{
+    font-weight: normal;
+    height:32px;
+    line-height: 32px;
+    font-size:16px;
+    color:#c91e00;
+    font-family: "microsoft yahei";
+}
+.subnav_ul .subLi a{
+    display:inline-block;
+    padding:0 6px;
+    color:#000000;
+    font-size:12px;
+    line-height: 25px;
+}
+.subnav_ul .subLi a:hover{
+    background:#ce1c00;
+    color:#ffffff;
+}
+.alScan img{
+    width:64px;
+    height:64px;
+}
+.scanCon{
+    height:140px;
+    width:75px;
+}
+
+/*主要内容*/
+#main .conMain{
+    width:960px;
+}
+.conMain .mainBox{
+    position:relative;
+    border-top: solid 1px #000000;
+}
+.mainBox h3{
+    padding-left: 16px;
+    line-height: 32px;
+    border:solid 1px #dfdfdf;
+    background:#f7f7f7; 
+}
+.proBox{
+    padding:16px 0 8px 0; 
+    border:solid 1px #dfdfdf;
+    border-top:0px;
+}
+.advicePro{
+    width:922px;
+}
+.proInfo{
+    float: left;
+    width:100px;
+}
+.everyAdv {
+    float:left;
+    width:226px;
+}
+.everyAdv img{
+    display:block;
+    float: left;
+    width:100px;
+    height:100px;
+}
+.proInfo .proDesc{
+    font-size:11px;
+    line-height: 17px;
+    height:34px;
+    overflow:hidden;
+    color:#777777;
+}
+.proInfo .advPrice{
+    padding:2px 0 5px    0;
+    line-height: 22px;
+    font-size:14px;
+    font-weight: bold;
+    color:#cb1c00;
+    font-family: "黑体";
+}
+.advPrice span{
+    color:#cccccc;
+    text-decoration: line-through;
+}
+.proInfo a{
+    display:block;
+    width:84px;
+    height:26px;
+    background:#ce1c00;
+    border-radius: 3px;
+    color:#ffffff;
+    line-height: 26px;
+    text-align: center;
+}
+.prev,.next{
+    display:block;
+    margin-top:26px;
+    width:18px;
+    height:54px;
+    background:url("../img/detail/mainCon.png") no-repeat -142px -116px;
+}
+.next{
+    background-position: -167px -116px;
+}
+
+
+.terms{
+    padding:5px 15px 0 15px;
+    border:solid 1px #dfdfdf;
+    border-top:0px;
+}
+
+.termsType{
+    padding-top: 15px;
+    padding-bottom: 6px;
+    border-bottom: solid 1px #cccccc;
+}
+
+.termSum{
+    width:66px;
+    height:25px;
+    line-height:25px;
+    text-align: center;
+    font-size: 1px;
+    font-weight: bold;
+}
+dd.countryList{
+    width:800px;
+    padding-left:4px;
+}
+dd.termName{
+    width:828px;
+    padding-left:4px;
+}
+.countryList a{
+    float:left;
+    display:block;
+    width:72px;
+    height:22px;
+    padding-left:8px;
+    line-height: 22px;
+    color:#000000;
+    margin-right: 20px;
+}
+.termName a{
+    overflow:hidden;
+   float:left;
+    display:block;
+    width:120px;
+    height:22px;
+    padding-left:8px;
+    line-height: 22px;
+    color:#000000;
+    margin-right: 10px;
+}
+.termName a:hover{
+    background:#cc1d00; 
+    color:#ffffff;
+}
+.countryList a:hover{
+    background:#cc1d00; 
+    color:#ffffff;
+}
+.moreBrand,.hideBrand{
+    z-index: 100;
+    position:absolute;
+    left:425px;
+    top:237px;
+    border:solid 1px #cccccc;
+    border-top:solid 1px #ffffff;
+    width:126px;
+    height:20px;
+    text-align: center;
+    line-height: 21px;
+    color:#777777;
+    cursor: pointer;
+}
+.hideBrand{
+    position:absolute;
+    left:425px;
+    top:325px;
+}
+
+
+.sort{
+    height:40px;
+    border:solid 1px #dfdfdf;
+    margin:15px 0px;
+    background:#f7f7f7;
+}
+.sort p{
+    line-height: 40px;
+}
+.sort a{
+    color:#434343;
+    padding:6px 15px 6px 15px;
+    background:#ffffff;
+    border:solid 1px #d2d2d2;
+    margin-left: 9px;
+}
+
+.sort .sort_left a:hover{
+    background: #cc1d00;
+    color:#ffffff;
+}
+.sort input{
+    border:0px;
+    width:40px;
+    height:20px;
+    background:#ffffff;
+    border:solid 1px #d2d2d2;
+    text-align: center;
+
+}
+
+.allPro .listOne{
+    padding-top:10px;
+    float:left;
+    width:238px;
+    margin-bottom: 25px;
+    border: solid 1px #d2d2d2;
+    border-color: transparent;
+}
+
+.allPro .listOne:hover{
+    border: solid 1px #d2d2d2;
+}
+.proLogo{
+    height:24px;
+    background:url("../img/detail/iConpos.png") no-repeat 0px -84px;
+}
+.listOne img{
+    display:block;
+    width:180px;
+    height:180px;
+    margin:0 auto;
+}
+.listOne .liBom{
+    padding:0px 20px;
+}
+
+.listOne .oneInfo{
+    height:32px;
+    line-height: 16px;
+    overflow:hidden;
+}
+.onePrice{
+    line-height: 24px;
+    color:#999999;
+}
+.onePrice b{
+    font-size: 18px;
+    color:#c91f00;
+}
+.onePrice span{
+    padding-left:10px;
+    line-height: 21px;
+    text-decoration: line-through;
+}
+.proCount,.proCom{
+    float:left;
+    display:block;
+    width:90px;
+    height:24px;
+    line-height: 24px;
+    text-align: center;
+    border:solid 1px #b5dbf1;
+    color:#4693c1;
+}
+
+.pages{
+    height:32px;
+    padding:20px 0px;
+}
+.pages a{
+    display:inline-block;
+    height:30px;
+    line-height:30px;
+    padding:0px 10px;
+    border: 1px solid #dedede;
+    color:#000000;
+}
